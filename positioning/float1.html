@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Float 1</title>
+  <style type="text/css">
+    /* ---------------Box Sizing----------------- */
+    html {
+      box-sizing: border-box;
+    }
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+    body {
+      background-color: #ECECEC;
+      font-weight: bold;
+      font-family: Tahoma, Geneva, sans-serif;
+      color: #FFF;
+      text-align: center;
+      line-height: 24px;
+    }
+    #wrapper {
+      background-color: #FFF;
+      border: 1px solid #c0c0c0;
+      width: 710px;
+      margin-right: auto;
+      margin-left: auto;
+      text-shadow: 2px 2px #000;
+      padding: 20px;
+      height: 350px;
+    }
+    #navy {
+      background-color: #001f3f;
+      float: left;
+    }
+    #teal {
+      background-color: #39CCCC;
+      float: right;
+    }
+    #blue {
+      background-color: #0074D9;
+      float: left;
+      margin: 20px 0;
+    }
+    #aqua {
+      background-color: #7FDBFF;
+      float: right;
+      margin: 20px 0;
+    }
+    #footer {
+      background-color: #666;
+      clear: both;
+    }
+    h1 {
+      color: #000;
+      font-weight: normal;
+      padding: 50px;
+    }
+    .common {
+      width: 325px;
+      height: 125px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Exercise</h1>
+  <section id="wrapper">
+    <div id="navy" class="common">Navy</div>
+    <div id="teal" class="common">Teal</div>
+    <div id="blue" class="common">Blue</div>
+    <div id="aqua" class="common">Aqua</div>
+    <div id="footer">Footer</div>
+  </section>
+</body>
+
+</html>

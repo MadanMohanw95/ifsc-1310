@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header.primary h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+header.primary h1, 
+header.primary h2,
+header.primary nav ul li {
+    text-align: center;
+    color: black;
+}
+
+header.primary nav ul li {
+    color: black;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header.primary nav ul li a {
+    color: black;
+    text-decoration: none;
+}
